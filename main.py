@@ -13,4 +13,4 @@ def punto_de_mira(lista_de_coordenadas):
 
 if __name__ == '__main__':
     lista_de_coordenadas = [0, 0]
-    punto_de_mira(lista_de_coordenadas)
+    punto_de_mira([lista_de_coordenadas])
