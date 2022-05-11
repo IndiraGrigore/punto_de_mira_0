@@ -12,5 +12,12 @@ def punto_de_mira(lista_de_coordenadas):
 
 
 if __name__ == '__main__':
-    lista_de_coordenadas = [0, 0]
-    punto_de_mira([lista_de_coordenadas])
+    lista_de_coordenadas = [
+        [0, 0],
+        [1, 0],
+        [-1, 0],
+        [0, -1],
+        [0, 1]
+    ]
+ 
+    punto_de_mira(lista_de_coordenadas)
